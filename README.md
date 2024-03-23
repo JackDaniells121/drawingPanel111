@@ -6,6 +6,8 @@ This one file cpp app has example of use:
 - button
 - event handlers
 - drawing lines and shapes
+- drawing text
+- drawing changed text after typing to edit (wxT
 - rendering after change some value to imitate movement
 - saving to file
 

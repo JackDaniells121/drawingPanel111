@@ -142,6 +142,10 @@ void BasicDrawPane::render(wxDC&  dc)
     dc.DrawRectangle(0,0,380,400);
     // draw some text
     dc.SetPen( wxPen( wxColor(liczbaColor,0,100), 2 ) );
+    wxBrush brush(wxColour(0 , 255 , 0), wxSOLID );
+    dc.SetBrush( brush );
+    dc.SetTextBackground(wxColour(0 , 255 , 0));
+    dc.SetTextForeground(wxColour(0 , 255 , 0));
     dc.DrawText(wxT("Testing"), 40, 260);
 
     //giwazdka 
