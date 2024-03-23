@@ -23,7 +23,11 @@ There is not everithing working and this is only for testing ideas and expanding
         brew install wxwidgets
 
 ## HOW TO RUN
+copy this reposytory:
 
+    git clone https://github.com/JackDaniells121/drawingPanel111.git
+    cd drawingPanel111
+    
 (terminal command to generate executable):
 
         c++ -o program main.cpp `wx-config --cxxflags --libs`
