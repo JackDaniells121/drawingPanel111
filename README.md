@@ -17,6 +17,7 @@ There is not everithing working and this is only for testing ideas and expanding
 - install brew (https://brew.sh/)
 
 (in terminal):
+
         brew install wxwidgets
 
 ## HOW TO RUN
