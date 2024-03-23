@@ -1,4 +1,4 @@
-## WHAT IT IS
+## WHAT IS IT
 
 This repository contains project written in C++ using wxwidgets (https://www.wxwidgets.org/) library to build GUI app.
 
@@ -27,7 +27,7 @@ copy this reposytory:
 
     git clone https://github.com/JackDaniells121/drawingPanel111.git
     cd drawingPanel111
-    
+
 (terminal command to generate executable):
 
         c++ -o program main.cpp `wx-config --cxxflags --libs`
